@@ -1,6 +1,6 @@
 # Campus Navigation
 
-A SwiftUI app for finding your way around campus. It shows nearby libraries on a map, lists them by distance, lets you search for a book and see which library has it, and gives walking directions to the library you pick.
+A SwiftUI app for finding your way around the Somaiya Vidyavihar campus in Mumbai. It shows the library of each college on a map, lists them by distance, lets you search for a book and see which library has it, and gives walking directions to the library you pick.
 
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift)
 ![iOS](https://img.shields.io/badge/iOS-17%2B-blue?logo=apple)
@@ -49,7 +49,7 @@ cd campus-navigation-ios
 open CampusNav.xcodeproj
 ```
 
-Choose an iPhone simulator and press **⌘R**. To give the simulator a location, go to **Features → Location → Apple**. The sample libraries are placed around that spot.
+Choose an iPhone simulator and press **⌘R**. To put the simulator on campus, go to **Features → Location → Custom Location** and enter latitude `19.0728`, longitude `72.8999`.
 
 ## Author
 

@@ -19,18 +19,20 @@ struct Library: Identifiable {
     }
 }
 
-// Predefined campus dataset
+// Somaiya Vidyavihar campus, Mumbai (approximate coordinates)
 let campusLibraries: [Library] = [
-    Library(name: "Central Library", building: "Main Block", latitude: 37.3349, longitude: -122.0090,
-            books: ["Clean Code", "The Swift Programming Language", "Operating System Concepts"]),
-    Library(name: "Engineering Library", building: "Block A", latitude: 37.3370, longitude: -122.0120,
-            books: ["Digital Electronics", "Computer Networks", "Clean Code"]),
-    Library(name: "Science Library", building: "Block B", latitude: 37.3320, longitude: -122.0060,
+    Library(name: "KJSCE Library", building: "K J Somaiya College of Engineering", latitude: 19.0728, longitude: 72.8999,
+            books: ["Clean Code", "The Swift Programming Language", "Operating System Concepts", "Computer Networks"]),
+    Library(name: "SIMSR Library", building: "K J Somaiya Institute of Management", latitude: 19.0745, longitude: 72.8993,
+            books: ["Principles of Marketing", "Financial Accounting", "Business Analytics"]),
+    Library(name: "Science College Library", building: "K J Somaiya College of Science & Commerce", latitude: 19.0722, longitude: 72.8978,
             books: ["Physics Fundamentals", "Organic Chemistry", "Calculus"]),
-    Library(name: "Management Library", building: "Block C", latitude: 37.3385, longitude: -122.0050,
-            books: ["Principles of Marketing", "Financial Accounting", "Calculus"]),
-    Library(name: "Reading Hall", building: "Hostel Area", latitude: 37.3305, longitude: -122.0115,
-            books: ["The Swift Programming Language", "Atomic Habits"])
+    Library(name: "Arts College Library", building: "K J Somaiya College of Arts & Commerce", latitude: 19.0716, longitude: 72.8988,
+            books: ["Indian Economy", "Financial Accounting", "English Literature"]),
+    Library(name: "S K Somaiya College Library", building: "S K Somaiya College", latitude: 19.0740, longitude: 72.8975,
+            books: ["Mass Communication", "Calculus", "Atomic Habits"]),
+    Library(name: "Education College Library", building: "K J Somaiya College of Education", latitude: 19.0710, longitude: 72.8995,
+            books: ["Educational Psychology", "Teaching Methods", "Atomic Habits"])
 ]
 
 func formatDistance(_ meters: Double?) -> String {
