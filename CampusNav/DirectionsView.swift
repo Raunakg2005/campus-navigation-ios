@@ -25,6 +25,7 @@ struct DirectionsView: View {
             }
         }
         .navigationTitle("Directions")
+        .navigationBarTitleDisplayMode(.inline)
         .task { await getRoute() }
     }
 
